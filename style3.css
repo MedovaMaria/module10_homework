@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+    color: #eb15bd;
+}
+.wrapper {
+	width: 500px;
+	height: auto;
+	padding: 10px;
+	margin: 20px auto;
+}
+
+.form-chat {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-input {
+	border: 3px solid #e1168d;
+    padding: 7px 5px;
+	width: 80%;
+	margin-right: 10px;
+	outline: none;
+
+}
+.form-input:focus {
+	border: 3px solid #eb15bd;
+}
+
+.form-btn {
+	border: none;
+	background-color: #e742e4;
+	padding: 0px 5px;
+	width: 30%;
+	cursor: pointer; 
+}
+.form-btn:hover {
+	background-color: #eb15c7;
+}
+
+.wrapper-chat {
+	overflow: auto;
+	border: 3px solid #c6209f;
+	padding: 5px;
+	margin-top: 12px;
+	height: 400px;
+}
+ .messages {
+	border: 3px solid #c420ab;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 7px;
+	align-self: flex-end;
+} 
+
+.user-messages {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.server-messages {
+    border: none;
+	background-color: #e742e4;
+	padding: 0px 40px;
+	width: 40%;
+    height: 5%;
+	cursor: pointer; 
+}
+.server-messages, a {
+	cursor: pointer;
+	color: #29034d;
+	text-decoration: none
+}
+.server-messages:hover, a:hover {
+	color: #420404;
+}
+
+.geo-location {
+	margin-left: 6px;
+}
